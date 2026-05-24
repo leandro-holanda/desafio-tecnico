@@ -4,6 +4,16 @@ Uma API para previsão de tempo e análise de conforto climático em cidades bra
 
 ## Como Rodar o Projeto
 
+### Clonar o projeto
+
+Execute o comando abaixo para clonar este repositório e entrar na pasta do projeto:
+
+```bash
+git clone https://github.com/leandro-holanda/desafio-tecnico
+cd desafio-tecnico
+```
+
+
 ### Pré-requisitos
 
 - Docker e Docker Compose instalados
