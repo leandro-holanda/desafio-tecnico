@@ -69,29 +69,29 @@ Resposta esperada:
 
 ### 1. Listar cidades disponíveis
 ```bash
-curl http://localhost:8001/api/v1/cities/
+curl http://localhost:8000/api/v1/cities/
 ```
 
 ### 2. Obter previsão e índice de conforto
 ```bash
-curl http://localhost:8001/api/v1/cities/sao-paulo/forecast/
-curl http://localhost:8001/api/v1/cities/sao-paulo/forecast/?days=5
+curl http://localhost:8000/api/v1/cities/sao-paulo/forecast/
+curl http://localhost:8000/api/v1/cities/sao-paulo/forecast/?days=5
 ```
 
 ### 3. Ranking das cidades mais quentes
 ```bash
-curl http://localhost:8001/api/v1/cities/ranking/hottest/
-curl http://localhost:8001/api/v1/cities/ranking/hottest/?limit=5
+curl http://localhost:8000/api/v1/cities/ranking/hottest/
+curl http://localhost:8000/api/v1/cities/ranking/hottest/?limit=5
 ```
 
 ### 4. Resumo geral das cidades
 ```bash
-curl http://localhost:8001/api/v1/cities/summary/
+curl http://localhost:8000/api/v1/cities/summary/
 ```
 
 ### 5. Health check
 ```bash
-curl http://localhost:8001/health
+curl http://localhost:8000/health
 ```
 
 ## Parar a aplicação
@@ -177,7 +177,7 @@ Agora você tem dados para as 5 cidades pré-carregadas!
 Quando você chama:
 
 ```bash
-curl http://localhost:8001/api/v1/cities/sao-paulo/forecast/
+curl http://localhost:8000/api/v1/cities/sao-paulo/forecast/
 ```
 
 **O que acontece:**
